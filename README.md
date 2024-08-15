@@ -2,7 +2,7 @@
 
 开发环境：PyCharm
 
-技术栈：Python，MySQL，Tkinter，腾讯云
+技术栈：Python，MySQL，Tkinter，华为云
 
 时间：2021/07（大二春季）
 
