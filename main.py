@@ -7,7 +7,12 @@ from tkinter import messagebox
 import tkinter.ttk as ttk
 import pymysql
 
-db = pymysql.connect(host="114.116.244.175", user="root", password="Xiaotutu20", db="ex2")
+HOST = 'my-database.c7u2kc6sgxm7.ca-central-1.rds.amazonaws.com'
+USER = 'admin'
+PASSWORD = '12121212'
+DB = 'email_management'
+
+db = pymysql.connect(host=HOST, user=USER, password=PASSWORD, db=DB)
 csr = db.cursor()
 
 class EmailSend:
